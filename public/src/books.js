@@ -31,14 +31,3 @@ module.exports = {
   partitionBooksByBorrowedStatus,
   getBorrowersForBook,
 };
-
-
-//Errors:
-//partitionBooksByBorrowedStatus()
-//*should return an array with two arrays: borrowed books and returned books. TypeError: partionBooksByBorrowedStatus is not a function or its return value is not iterable.
-//getBorrowersForBook()
-//*should return an array for a book of all borrowers with their information and return status. expected undefined to deeply equal { first: 'Barber' , last: 'Waters' }.
-//*should limit the list to ten borrowers. expected 11 to equal 10.
-//getMostPopularBooks()
-//*should return an ordered list of most popular books. TypeError: cannot read properties of undefined (reading '0').
-//*should limit the list to the top five. TypeError: Cannot read properties of undefined (reading 'length').
