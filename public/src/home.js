@@ -19,7 +19,7 @@ return Object.entries(genreCounts)
 .map(([name, count]) => ({ name, count }))
 .sort((a, b) => b.count - a.count)
 .slice(0, 25);
-}
+};
 
 
 function getMostPopularBooks(books) {
@@ -30,7 +30,7 @@ function getMostPopularBooks(books) {
     }))
     .sort((a, b) => b.count - a.count)
     .slice(0, 5);
-}
+};
 
 function getMostPopularAuthors(books, authors) {
   const authorBorrows = books.reduce((acc, { authorId, borrows }) => {
