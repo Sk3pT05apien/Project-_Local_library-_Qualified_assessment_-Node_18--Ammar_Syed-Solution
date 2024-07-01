@@ -48,7 +48,7 @@ function getMostPopularAuthors(books, authors) {
     })
     .sort((a, b) => b.count - a.count)
     .slice(0, 25);
-};
+}
 
 module.exports = {
   getTotalBooksCount,
