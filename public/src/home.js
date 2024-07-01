@@ -58,8 +58,3 @@ module.exports = {
   getMostPopularBooks,
   getMostPopularAuthors,
 };
-
-
-// getMostPopularBooks()
-//* TypeError: cannot read properties of undefined (reading '0').
-//*should limit the list to the top five. TypeError: Cannot read properties of undefined (reading 'length').
